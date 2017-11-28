@@ -101,8 +101,8 @@ export default class extends Component {
   static propTypes = {
     horizontal: PropTypes.bool,
     children: PropTypes.node.isRequired,
-    containerStyle: View.propTypes.style,
-    style: View.propTypes.style,
+    // containerStyle: View.propTypes.style,
+    // style: View.propTypes.style,
     pagingEnabled: PropTypes.bool,
     showsHorizontalScrollIndicator: PropTypes.bool,
     showsVerticalScrollIndicator: PropTypes.bool,
